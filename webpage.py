@@ -2,9 +2,10 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <html>
     <body bgcolor="lavender">
-        <h1 align="center"><u><i>Device configuration</u></i></h1>
-        <h2 align="center">Rhudhra phriyamvada 24900189</h2>
-        <ul type="none">
+        <h1 align="center"><u><i>DEVICE CONFIGURATION</u></i></h1>
+        <h2 align="center">Rhudhra phriyamvadha</h2>
+        <h3 align="center">Reg.no:24900189</h3>
+        <ul type="star">
             <li>Device name: phriyamvadha19</li>
             <li>Processor: 13th Gen Intel(R) Core(TM) i5-1334U   1.30 GHz</li>
             <li>Installed RAM: 8.00 GB (7.69 GB usable)</li>  
@@ -15,6 +16,7 @@ content = """
         </ul> 
     </body>
 </html>
+
 
 """
 class myhandler(BaseHTTPRequestHandler):
